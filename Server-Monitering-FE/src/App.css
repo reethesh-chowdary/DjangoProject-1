@@ -1,0 +1,27 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+}
+.heading{
+  font-size: 24px;
+  margin: 20px 0;
+}
+.graphs-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.graphs-container{
+  width: 100vw;
+  height: auto;
+}
+.footer{
+  width: 100%;
+  height: auto;
+}

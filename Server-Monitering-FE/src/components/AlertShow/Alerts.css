@@ -1,0 +1,39 @@
+.heatmap-container-horizontal {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.heatmap-chart {
+  width: 160px;
+  height: 160px;
+}
+
+.heatmap-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}

@@ -1,0 +1,31 @@
+.speedometer-container {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdd6e1;
+  border-radius: 20px;
+  box-shadow: #333 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.cpu-usage-text{
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+.warning-text {
+  color: #ff0000;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.normal-text {
+  color: #096309;
+  font-size: 18px;
+  margin-top: 10px;
+}
+h2{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+.graph-page {
+  width: 600px;
+  height: 400px;
+  background-color: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.graph-container {
+  width: 90%;
+  height: 80%;
+  background-color: #2a2a40;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+.graph-heading {
+  color: #f1c40f;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: #333 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+}
